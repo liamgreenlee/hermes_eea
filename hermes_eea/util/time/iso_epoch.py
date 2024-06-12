@@ -1,3 +1,5 @@
+import os
+os.environ["CDF_LIB"] = "/usr/local/cdf/lib"
 import cdflib
 import dateutil.parser
 from sys import stderr
